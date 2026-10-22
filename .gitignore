@@ -1,0 +1,21 @@
+# Build output
+bin/
+bin-2x/
+
+# Terraform working directories
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+*.tfstate
+*.tfstate.*
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Local CLI configuration produced by the experiment scripts (absolute paths)
+experiments/dev-*.tfrc
